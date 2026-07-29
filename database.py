@@ -14,8 +14,8 @@ def crear_tabla():
         CREATE TABLE IF NOT EXISTS Producto (
             referencia TEXT NOT NULL PRIMARY KEY,
             nombre TEXT NOT NULL,
-            precio_cop REAL NOT NULL,
-            precio_usd REAL NOT NULL,
+            precio_cop REAL,
+            precio_usd REAL,
             estado BOOLEAN NOT NULL
         )
     ''')
